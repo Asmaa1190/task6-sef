@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div1 ,.div2,.div3,.div4,.div5,.div6{
+  width: 100px;
+  height: 100px;
+  background-color: salmon;
+  position: absolute;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.div1,.div3,.div5{
+  left: 0;
+}
+.div2,.div4,.div6{
+ right: 0;
+}
+/* ------------------------------------------------------------------ */
+.div1 {
+  top: 10px;
+  animation-name: change1;
+  animation-delay: 1s;
+}
+@keyframes change1 {
+  0% {
+    background-color: salmon;
+  }
+  50% {
+    background-color: salmon;
+  }
+  100% {
+    background-color: salmon;
+    left: 1340px;
+  }
+}
+/* ------------------------------------------------------------------ */
+.div2 {
+  top: 120px;
+  animation-name: change2;
+  animation-delay: 4s;
+}
+@keyframes change2 {
+  0% {
+    background-color: salmon;
+  }
+  50% {
+    background-color: salmon;
+  }
+  100% {
+    background-color: salmon;
+    right: 1340px;
+  }
+}
+/* ------------------------------------------------------------------ */
+.div3 {
+  top: 230px;
+  animation-name: change3;
+  animation-delay: 7s;
+}
+@keyframes change3 {
+  0% {
+    background-color: salmon;
+  }
+  50% {
+    background-color: salmon;
+  }
+  100% {
+    background-color: salmon;
+    left: 1340px;
+  }
+}
+/* ------------------------------------------------------------------ */
+.div4 {
+  top: 340px;
+  animation-name: change4;
+  animation-delay: 10s;
+}
+@keyframes change4 {
+  0% {
+    background-color: salmon;
+  }
+  50% {
+    background-color: salmon;
+  }
+  100% {
+    background-color: salmon;
+    right: 1340px;
+  }
+}
+/* ------------------------------------------------------------------ */
+.div5 {
+  top: 450px;
+  animation-name: change5;
+  animation-delay: 13s;
+}
+@keyframes change5 {
+  0% {
+    background-color: salmon;
+  }
+  50% {
+    background-color: salmon;
+  }
+  100% {
+    background-color: salmon;
+    left: 1340px;
+  }
+}
+/* ------------------------------------------------------------------ */
+.div6 {
+  top: 560px;
+  animation-name: change6;
+  animation-delay: 16s;
+}
+@keyframes change6 {
+  0% {
+    background-color: salmon;
+  }
+  50% {
+    background-color: salmon;
+  }
+  100% {
+    background-color: salmon;
+    right: 1340px;
+  }
+}
